@@ -1,0 +1,19 @@
+[Unit]
+Description=gunicorn daemon
+Requires=storage_linloa.socket
+After=network.target
+
+
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/storage_linloa/storage_linloa
+ExecStart=/home/ubuntu/storage_linloa/venv/bin/gunicorn \
+    --access-logfile /var/log/storage_linloa/access.log \
+    --workers 3 \
+    --bind unix:/run/storage_linloa.sock \
+    core.wsgi:application \
+    --env DJANGO_SETTINGS_MODULE=core.settings.prod
+
+[Install]
+WantedBy=multi-user.target
