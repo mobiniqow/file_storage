@@ -36,7 +36,6 @@ pip install -q -r req.txt
 sudo nginx -t
 
 sudo systemctl restart nginx
-
 echo "sudo systemctl restart"
 sudo systemctl restart storage_linloa.socket
 sudo systemctl restart storage_linloa.service

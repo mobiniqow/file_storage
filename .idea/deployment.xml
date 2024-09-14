@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="linloa_iran" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="linloa_iran">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/ubuntu/file_storage" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

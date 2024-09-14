@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6f445ccd-28c0-46e7-98eb-f65d13f12b5d" name="linloa_iran">
+        <fileTransfer accessType="SFTP" host="195.177.255.94" port="22" sshConfigId="5be19a0a-d1b3-49c7-8a56-df48efdad911" sshConfig="root@195.177.255.94:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
